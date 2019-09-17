@@ -1,0 +1,71 @@
+h5{
+
+	color: white;
+	text-align:center;
+	font-size:70px;
+	font-family:Chiller;
+	
+}
+
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-image: url(greenwallpaper.jpg);
+	background-position: center;
+}
+#container{
+	width: 1000px;
+	height: 550px;
+	margin: 20px auto;	
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: gray;
+	opacity: .4;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 10px;
+}
+#result{
+	height: 120px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+
+#output{
+border-radius: 40px;
+	text-align: right;
+	background-color: lightgreen;
+	border-color: black;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keyboard{
+	height: 400px;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	border-radius: 50px;
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: lightgreen;
+}
+
+.number, .empty {
+	background-color: lightgreen;
+}
+.number, .operator{
+	cursor: pointer;
+}
+
